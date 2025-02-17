@@ -8,15 +8,12 @@ This repository contains the code and analysis for a house price modelling proje
 
 - [Overview](#overview)
 - [Data Collection](#data-collection)
-- [Data Exploration & Visualization](#data-exploration--visualization)
+- [Data Exploration & Visualisation](#data-exploration--visualisation)
 - [Data Preparation & Feature Engineering](#data-preparation--feature-engineering)
 - [Model Development & Evaluation](#model-development--evaluation)
 - [Advanced Models](#advanced-models)
 - [Future Applications](#future-applications)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+
 
 ---
 
@@ -37,8 +34,8 @@ As a budding data scientist, I challenged myself to build a predictive model for
 - **Source:** Rightmove (active and sold property listings)
 - **Method:** 
   - Started with a basic GitHub repository for Rightmove scraping.
-  - Analyzed Rightmove's HTML structure to locate JSON data embedded within JavaScript.
-  - Utilized the `lxml` library (specifically the `etree` function) to parse HTML and extract additional numeric data.
+  - Analysed Rightmove's HTML structure to locate JSON data embedded within JavaScript.
+  - Utilised the `lxml` library (specifically the `etree` function) to parse HTML and extract additional numeric data.
 - **Data Points Collected:** 
   - Initial points: price, type, address, postcode, and number of bedrooms.
   - Expanded to include ten additional numeric data points per house, such as the number of images, floorplans, and virtual tours.
@@ -48,11 +45,11 @@ As a budding data scientist, I challenged myself to build a predictive model for
 
 ---
 
-## Data Exploration & Visualization
+## Data Exploration & Visualisation
 
 - **Initial Analysis:** 
   - Conducted exploratory data analysis (EDA) to identify anomalies and patterns.
-- **Visualizations Created:**
+- **Visualisations Created:**
   - **Average Price Heatmap:** Displayed property price distribution across the local area.
   - **Bedroom-to-Average-Price Bar Graph:** Highlighted trends and potential data issues.
   
